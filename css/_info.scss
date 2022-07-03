@@ -1,0 +1,55 @@
+.info-section{
+    background-color: $bgColor;
+   .image{
+
+        img{
+            width: 100%;
+        }
+    } 
+
+    .content{
+        padding: 0 70px;
+        position: relative;
+        z-index: 0;
+        ul{
+            padding: 20px 0;
+            li{
+                color: $mainColor;
+                padding-bottom: 10px;
+
+            }
+        }
+
+        .service-mark{
+            color: transparent;
+            font-size: 3rem;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: $listColor;
+            position: absolute;
+                top: -40px;
+                left: 60px;
+            opacity: 0.5;
+            z-index: -5;
+        }
+
+
+    }
+
+    .content-two{
+        padding: 0 180px;
+        position: relative;
+
+        .service-mark{
+            color: transparent;
+            font-size: 3rem;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: $listColor;
+            position: absolute;
+                top: -40px;
+                left: 175px;
+            opacity: 0.5;
+        }
+
+    }
+
+}

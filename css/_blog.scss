@@ -1,0 +1,63 @@
+.our-article{
+    padding-bottom: 50px;
+
+    .show-slide{
+
+        .article{
+            position: relative;
+
+            img{
+                width: 100%;
+                height: 500px;
+                object-fit: cover;
+            }
+
+            .show-overlay{
+                position: absolute;
+                left: 40px;
+                bottom: 40px;
+
+                h3{
+                    padding-top: 15px;
+                }
+
+            }
+
+        }
+    }
+    .more-article{
+
+        .blog{
+            padding: 50px 10px 10px  10px;
+            img{
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+            }
+
+            h2{
+                padding-top: 30px;
+                margin-bottom: 0;
+                line-height: 1.5;
+            }
+            .comment{
+                padding-bottom: 10px;
+
+                a{
+                    text-decoration: none;
+                    font-size: 0.75rem;
+                    color: $listColor;
+                    
+                    i{
+                        padding: 0 10px;
+                    }
+                }
+
+            }
+
+
+        }
+
+    }
+
+}

@@ -1,0 +1,47 @@
+.header-main{
+    padding-top: 100px;
+
+   /* .water-mark{
+        font-size: 3rem;
+        
+    }*/
+
+    .header-content{
+        position: relative;
+        padding: 70px 0 0 0;
+        z-index: 0;
+        h1{
+            font-size: 2rem;
+
+
+        }  
+        .water-mark{
+            font-size: 7rem;
+            color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: $listColor;
+            position: absolute;
+                top: -40px;
+                left: 0;
+            opacity: 0.5;
+            z-index: -2;
+        }
+
+
+    }
+
+    .image{
+
+        img{
+            width: 100%; 
+        }
+    }
+
+ 
+
+}
+.our-perform{
+    padding: 100px 0;
+
+
+}

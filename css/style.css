@@ -1,0 +1,1337 @@
+@charset "UTF-8";
+/*
+    --e-global-color-primary: #D16527;
+    --e-global-color-secondary: #121212;
+    --e-global-color-text: #161616;
+    --e-global-color-accent: #242424;
+    --e-global-color-11fee7f: #606060;
+    --e-global-color-7ff2b2d: #C6C6C6;
+    --e-global-color-0d3036c: #EDEDED;
+    --e-global-color-024918e: #ECCD39
+*/
+/*=========Color-Variable========*/
+/*=========Font-Variable========*/
+/*=========Other-Variable========*/
+.get-btn {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  background-color: #161616;
+}
+
+.main-head {
+  font-size: 2.2rem;
+  font-weight: 700;
+  font-family: "Chakra Petch", sans-serif;
+  text-transform: uppercase;
+  color: #EDEDED;
+  padding-bottom: 10px;
+}
+
+.secondary-head {
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: "Chakra Petch", sans-serif;
+  text-transform: uppercase;
+  color: #EDEDED;
+  padding-bottom: 10px;
+}
+
+.small-head {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Chakra Petch", sans-serif;
+  color: #EDEDED;
+}
+
+.para {
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #C6C6BB;
+  padding-bottom: 10px;
+}
+
+.flex-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.get-btn {
+  padding: 15px 25px;
+  -webkit-clip-path: polygon(14% 0, 100% 0, 100% 72%, 86% 100%, 2% 100%, 1% 27%);
+          clip-path: polygon(14% 0, 100% 0, 100% 72%, 86% 100%, 2% 100%, 1% 27%);
+  background-color: #CC6326;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.tag {
+  font-size: 0.95rem;
+  padding: 10px 16px;
+  color: #EDEDED;
+  background-color: #606060;
+  text-transform: uppercase;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 300;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.tag1 {
+  background-color: #D16527;
+}
+
+.main-btn {
+  padding: 15px 60px;
+  margin-top: 10px;
+}
+
+.back-panel {
+  padding: 20px 0;
+  background-color: #121212;
+}
+
+.box-btn {
+  display: none;
+}
+
+/*===============header-section===============*/
+.navigation {
+  padding: 15px;
+}
+.navigation .logo img {
+  width: 100%;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.navigation .navi-nav {
+  justify-content: center;
+}
+.navigation .call-us a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.custom-nav .active {
+  color: #D16527;
+  /*text-decoration: 1px underline $primeColor;*/
+}
+.custom-nav li {
+  margin-left: 15px;
+}
+.custom-nav li a {
+  color: #FFFFFF;
+  font-size: 0.85rem;
+}
+
+/*===============header-section===============*/
+.header-main {
+  padding-top: 100px;
+  /* .water-mark{
+       font-size: 3rem;
+
+   }*/
+}
+.header-main .header-content {
+  position: relative;
+  padding: 70px 0 0 0;
+  z-index: 0;
+}
+.header-main .header-content h1 {
+  font-size: 2rem;
+}
+.header-main .header-content .water-mark {
+  font-size: 7rem;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #606060;
+  position: absolute;
+  top: -40px;
+  left: 0;
+  opacity: 0.5;
+  z-index: -2;
+}
+.header-main .image img {
+  width: 100%;
+}
+
+.our-perform {
+  padding: 100px 0;
+}
+
+/*===============perfomence-section===============*/
+/*===============service-section===============*/
+.our-service {
+  padding: 50px 0;
+}
+.our-service .service-head {
+  padding-bottom: 30px;
+  position: relative;
+}
+.our-service .service-head .btn-box {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+}
+.our-service .service {
+  padding: 50px 10px 50px 0;
+  border-top: 1px solid #AAC0C6;
+}
+.our-service .service .icon {
+  padding-bottom: 40px;
+}
+.our-service .service .icon .fab, .our-service .service .icon .fas {
+  font-size: 2rem;
+  color: #EDEDED;
+}
+
+/*===============repairs-section===============*/
+.repair-section {
+  padding-bottom: 80px;
+}
+.repair-section .head {
+  padding: 10px 0;
+  border-bottom: 1px solid #AAC0C6;
+}
+.repair-section .repair-image {
+  margin: 35px 0 80px 0;
+}
+.repair-section .repair-image img {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.repair-section .repair-content h3 {
+  border-top: 1px solid #AAC0C6;
+}
+.repair-section .personal {
+  border-top: 1px solid #AAC0C6;
+  text-align: center;
+}
+.repair-section .personal p {
+  padding-top: 20px;
+}
+.repair-section .personal h3 {
+  padding-top: 10px;
+  text-align: center;
+}
+.repair-section .personal ul {
+  text-align: left;
+  padding: 30px 50px;
+}
+.repair-section .personal ul li {
+  color: #EDEDED;
+  padding-bottom: 20px;
+}
+.repair-section .personal ul li:nth-last-child(1) {
+  color: #606060;
+}
+.repair-section .personal ul li:nth-last-child(2) {
+  color: #606060;
+}
+.repair-section .personal .option-btn {
+  padding: 20px 80px;
+}
+.repair-section .professional ul li:nth-last-child(1) {
+  color: #EDEDED;
+}
+.repair-section .professional ul li:nth-last-child(2) {
+  color: #EDEDED;
+}
+
+/*===============inforamtion-section===============*/
+.info-section {
+  background-color: #121212;
+}
+.info-section .image img {
+  width: 100%;
+}
+.info-section .content {
+  padding: 0 70px;
+  position: relative;
+  z-index: 0;
+}
+.info-section .content ul {
+  padding: 20px 0;
+}
+.info-section .content ul li {
+  color: #EDEDED;
+  padding-bottom: 10px;
+}
+.info-section .content .service-mark {
+  color: transparent;
+  font-size: 3rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #606060;
+  position: absolute;
+  top: -40px;
+  left: 60px;
+  opacity: 0.5;
+  z-index: -5;
+}
+.info-section .content-two {
+  padding: 0 180px;
+  position: relative;
+}
+.info-section .content-two .service-mark {
+  color: transparent;
+  font-size: 3rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #606060;
+  position: absolute;
+  top: -40px;
+  left: 175px;
+  opacity: 0.5;
+}
+
+/*===============process-section===============*/
+.process-section {
+  padding: 150px 0;
+}
+.process-section .facility {
+  padding: 50px 0;
+  border-bottom: 1px solid #AAC0C6;
+}
+.process-section .facility h3 {
+  position: relative;
+}
+.process-section .facility h3 span {
+  color: #884E26;
+  font-weight: 600;
+  padding-right: 15px;
+}
+.process-section .facility h3 button {
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: "Chakra Petch", sans-serif;
+  text-transform: uppercase;
+  color: #EDEDED;
+  padding-bottom: 10px;
+}
+.process-section .facility h3 button .fas {
+  color: transparent;
+  -webkit-text-stroke-color: #EDEDED;
+  -webkit-text-stroke-width: 0.5px;
+  padding-left: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.our-product {
+  padding-bottom: 50px;
+}
+.our-product .sale-out {
+  position: relative;
+}
+.our-product .product {
+  padding: 30px 20px;
+}
+.our-product .product img {
+  width: 100%;
+}
+.our-product .product .sale {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+.our-product .product figcaption {
+  padding-top: 20px;
+  position: relative;
+}
+.our-product .product figcaption span {
+  position: absolute;
+  right: 0;
+}
+.our-product .product figcaption span del {
+  padding-right: 10px;
+  font-weight: 400;
+  color: #606060;
+}
+
+/*===============article-section===============*/
+.our-article {
+  padding-bottom: 50px;
+}
+.our-article .show-slide .article {
+  position: relative;
+}
+.our-article .show-slide .article img {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.our-article .show-slide .article .show-overlay {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+}
+.our-article .show-slide .article .show-overlay h3 {
+  padding-top: 15px;
+}
+.our-article .more-article .blog {
+  padding: 50px 10px 10px 10px;
+}
+.our-article .more-article .blog img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.our-article .more-article .blog h2 {
+  padding-top: 30px;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+.our-article .more-article .blog .comment {
+  padding-bottom: 10px;
+}
+.our-article .more-article .blog .comment a {
+  text-decoration: none;
+  font-size: 0.75rem;
+  color: #606060;
+}
+.our-article .more-article .blog .comment a i {
+  padding: 0 10px;
+}
+
+/*===============contact-section===============*/
+.contact-us {
+  padding-bottom: 70px;
+}
+.contact-us form label {
+  color: #EDEDED;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+.contact-us form .input-space {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  border-bottom: 1px solid #AAC0C6;
+  border-radius: 0;
+}
+.contact-us form .input-space::-moz-placeholder {
+  font-size: 1rem;
+  color: #606060;
+  text-transform: capitalize;
+}
+.contact-us form .input-space:-ms-input-placeholder {
+  font-size: 1rem;
+  color: #606060;
+  text-transform: capitalize;
+}
+.contact-us form .input-space::placeholder {
+  font-size: 1rem;
+  color: #606060;
+  text-transform: capitalize;
+}
+
+/*===============about-section===============*/
+.support-section {
+  padding: 80px 10px 30px 10px;
+  background-color: #121212;
+}
+.support-section .detail {
+  padding-bottom: 45px;
+}
+.support-section .detail .logo {
+  margin-top: -30px;
+}
+.support-section .detail .logo img {
+  width: 85%;
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.support-section .detail span {
+  font-size: 0.75rem;
+  color: #606060;
+  display: block;
+}
+.support-section .detail a {
+  display: inline-block;
+  text-decoration: none;
+}
+.support-section .list-nav {
+  padding-bottom: 30px;
+}
+.support-section .list-nav ul {
+  padding: 20px 0;
+}
+.support-section .list-nav ul li {
+  list-style: none;
+  font-size: 0.65rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+.support-section .list-nav ul li a {
+  color: #EDEDED;
+  text-decoration: none;
+}
+.support-section .list-nav ul li::before {
+  content: "∎";
+  color: #CC6326;
+  display: inline-block;
+  margin-right: 1rem;
+}
+.support-section .connect-now {
+  padding-bottom: 35px;
+}
+.support-section .connect-now form label {
+  font-weight: 600;
+  padding: 15px 0 0 0;
+}
+.support-section .connect-now form input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #AAC0C6;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 1rem;
+}
+.support-section .connect-now form input::-moz-placeholder {
+  color: #606060;
+  font-size: 0.95rem;
+}
+.support-section .connect-now form input:-ms-input-placeholder {
+  color: #606060;
+  font-size: 0.95rem;
+}
+.support-section .connect-now form input::placeholder {
+  color: #606060;
+  font-size: 0.95rem;
+}
+
+.footer-section {
+  padding: 30px;
+  text-align: center;
+}
+.footer-section .creator {
+  color: #606060;
+}
+.footer-section .creator abbr {
+  color: #CC6326;
+  text-decoration: none;
+}
+
+/*===============footer-section===============*/
+@media only screen and (min-width: 1680px) {
+  .get-btn {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+  }
+
+  /*=============commmon===========*/
+  html, body {
+    font-size: 24px;
+    width: 100%;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    background-color: #161616;
+  }
+
+  .main-head {
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: "Chakra Petch", sans-serif;
+    text-transform: uppercase;
+    color: #EDEDED;
+    padding-bottom: 10px;
+  }
+
+  .secondary-head {
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Chakra Petch", sans-serif;
+    text-transform: uppercase;
+    color: #EDEDED;
+    padding-bottom: 10px;
+  }
+
+  .small-head {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Chakra Petch", sans-serif;
+    color: #EDEDED;
+  }
+
+  .para {
+    font-size: 0.75rem;
+    font-family: "Open Sans", sans-serif;
+    color: #C6C6BB;
+    padding-bottom: 10px;
+  }
+
+  .flex-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .max-width {
+    max-width: 1366px;
+  }
+
+  .get-btn {
+    padding: 15px 30px;
+  }
+
+  .tag {
+    font-size: 0.95rem;
+    padding: 12px 18px;
+    color: #EDEDED;
+    background-color: #606060;
+    text-transform: uppercase;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 300;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .tag1 {
+    background-color: #D16527;
+  }
+
+  .back-panel {
+    padding: 30px 0;
+    background-color: #121212;
+  }
+
+  /*===============nav-section===============*/
+  /*===============header-section===============*/
+  /*===============perfomence-section===============*/
+  /*===============service-section===============*/
+  /*===============repairs-section===============*/
+  /*===============inforamtion-section===============*/
+  /*===============process-section===============*/
+  /*===============article-section===============*/
+  /*===============contact-section===============*/
+  /*===============about-section===============*/
+  /*===============footer-section===============*/
+  /*===============header-section===============*/
+}
+@media only screen and (min-width: 1366px) and (max-width: 1680px) {
+  /*=============commmon===========*/
+  html, body {
+    font-size: 22px;
+    width: 100%;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    background-color: #161616;
+  }
+
+  .main-head {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Chakra Petch", sans-serif;
+    text-transform: uppercase;
+    color: #EDEDED;
+    padding-bottom: 10px;
+  }
+
+  .secondary-head {
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: "Chakra Petch", sans-serif;
+    text-transform: uppercase;
+    color: #EDEDED;
+    padding-bottom: 10px;
+  }
+
+  .small-head {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Chakra Petch", sans-serif;
+    color: #EDEDED;
+  }
+
+  .para {
+    font-size: 0.75rem;
+    font-family: "Open Sans", sans-serif;
+    color: #C6C6BB;
+    padding-bottom: 10px;
+  }
+
+  .flex-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .max-width {
+    max-width: 1366px;
+  }
+
+  .get-btn {
+    padding: 15px 30px;
+  }
+
+  .tag {
+    font-size: 0.95rem;
+    padding: 12px 18px;
+    color: #EDEDED;
+    background-color: #606060;
+    text-transform: uppercase;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 300;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .tag1 {
+    background-color: #D16527;
+  }
+
+  .back-panel {
+    padding: 30px 0;
+    background-color: #121212;
+  }
+
+  /*===============nav-section===============*/
+  /*===============header-section===============*/
+  .header-main .header-content .water-mark {
+    top: -30px;
+  }
+
+  /*===============perfomence-section===============*/
+  /*===============service-section===============*/
+  /*===============repairs-section===============*/
+  /*===============inforamtion-section===============*/
+  .info-section .content {
+    padding: 50px;
+  }
+  .info-section .content .service-mark {
+    top: 10px;
+    left: 50px;
+  }
+  .info-section .content-two {
+    padding: 50px;
+    position: relative;
+  }
+  .info-section .content-two .service-mark {
+    top: 10px;
+    left: 50px;
+  }
+
+  /*===============process-section===============*/
+  .process-section {
+    padding: 100px 0;
+  }
+
+  /*===============product-section===============*/
+  .our-product .product-head {
+    padding: 15px;
+  }
+
+  /*===============article-section===============*/
+  /*===============contact-section===============*/
+  /*===============about-section===============*/
+  .support-section .list-nav ul li {
+    font-size: 0.7rem;
+  }
+
+  /*===============footer-section===============*/
+  /*===============header-section===============*/
+}
+@media only screen and (max-width: 1366px) {
+  html, body {
+    font-size: 18px;
+  }
+
+  .main-head {
+    font-size: 1.8rem;
+  }
+
+  .secondary-head {
+    font-size: 1.2rem;
+  }
+
+  .small-head {
+    font-size: 1rem;
+  }
+
+  .para {
+    font-size: 0.95rem;
+  }
+
+  .get-btn {
+    padding: 15px 30px;
+  }
+
+  .tag {
+    font-size: 0.95rem;
+    padding: 12px 18px;
+  }
+
+  /*===============nav-section===============*/
+  .navigation .logo img {
+    height: 50px;
+  }
+
+  /*===============header-section===============*/
+  .header-main {
+    padding: 50px 0 0 0;
+  }
+  .header-main .header-content h1 {
+    font-size: 2.5rem;
+  }
+  .header-main .header-content .water-mark {
+    font-size: 5rem;
+    top: 10px;
+  }
+
+  /*===============perfomence-section===============*/
+  .our-perform {
+    padding: 70px 0;
+  }
+  /*===============service-section===============*/
+  .repair-section .repair-image img {
+    height: 400px;
+  }
+
+  /*===============repairs-section===============*/
+  .repair-section .personal ul {
+    padding: 20px 0;
+    padding-left: 50px;
+  }
+  .repair-section .personal .option-btn {
+    padding: 15px 60px;
+  }
+
+  /*===============inforamtion-section===============*/
+  .info-section .image img {
+    width: 100%;
+    height: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .info-section .content {
+    padding: 20px;
+  }
+  .info-section .content .service-mark {
+    top: -5px;
+    left: 20px;
+  }
+  .info-section .content-two {
+    padding: 20px;
+  }
+  .info-section .content-two .service-mark {
+    top: -5px;
+    left: 20px;
+  }
+
+  /*===============process-section===============*/
+  .process-section {
+    padding: 70px 0;
+  }
+
+  /*===============article-section===============*/
+  .our-article .show-slide .article img {
+    height: 400px;
+  }
+
+  /*===============contact-section===============*/
+  /*===============about-section===============*/
+  /*===============support-section===============*/
+  .support-section .list-nav li {
+    font-size: 0.7rem;
+  }
+
+  /*===============header-section===============*/
+}
+@media only screen and (max-width: 991px) {
+  html, body {
+    font-size: 16px;
+  }
+
+  .main-head {
+    font-size: 2.5rem;
+  }
+
+  .secondary-head {
+    font-size: 1.5rem;
+  }
+
+  .small-head {
+    font-size: 1.2rem;
+  }
+
+  .para {
+    font-size: 0.95rem;
+  }
+
+  .get-btn {
+    padding: 15px 30px;
+  }
+
+  .tag {
+    font-size: 0.95rem;
+    padding: 12px 18px;
+    margin-top: 15px;
+  }
+
+  /*===============header-section===============*/
+  .header-main .header-content h1 {
+    font-size: 3rem;
+  }
+  .header-main .header-content .water-mark {
+    top: 10px;
+  }
+  .header-main .image img {
+    height: 600px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+
+  /*===============header-section===============*/
+  /*===============perfomence-section===============*/
+  /*===============service-section===============*/
+  /*===============repairs-section===============*/
+  .repair-section .personal ul {
+    padding-left: 120px;
+  }
+
+  /*===============inforamtion-section===============*/
+  .info-section .image img {
+    order: 0;
+  }
+  .info-section .content {
+    padding-top: 50px;
+    /*ul:nth-last-child(2){
+        padding-bottom: 20px;
+
+    }*/
+  }
+  .info-section .content .service-mark {
+    top: 25px;
+  }
+  .info-section .content ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+  }
+  .info-section .content-two {
+    padding-top: 50px;
+  }
+  .info-section .content-two .service-mark {
+    top: 25px;
+  }
+
+  /*===============process-section===============*/
+  /*===============article-section===============*/
+  .our-article .more-article .blog img {
+    height: 280px;
+  }
+
+  /*===============contact-section===============*/
+  .contact-us form label {
+    font-size: 1rem;
+  }
+  .contact-us form .input-space {
+    padding: 15px;
+  }
+  .contact-us form select {
+    padding: 15px;
+  }
+
+  /*===============about-section===============*/
+  /*===============footer-section===============*/
+  /*===============support-section===============*/
+  .support-section {
+    padding-top: 30px;
+  }
+  .support-section .detail {
+    padding: 0 50px;
+  }
+  .support-section .detail span {
+    font-size: 0.95rem;
+  }
+  .support-section .list-nav {
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+  .support-section .list-nav ul li {
+    font-size: 1rem;
+  }
+  .support-section .connect-now {
+    padding: 0 50px 50px 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /*===============header-section===============*/
+  /*===============header-section===============*/
+  .header-main .header-content .water-mark {
+    font-size: 5rem;
+    top: 20px;
+  }
+  .header-main .image img {
+    height: 450px;
+  }
+
+  /*===============perfomence-section===============*/
+  .our-perform {
+    padding: 30px 0;
+  }
+  .our-perform .work {
+    padding-top: 15px;
+    text-align: center;
+    border-bottom: 1px solid #AAC0C6;
+  }
+
+  /*===============service-section===============*/
+  /*===============repairs-section===============*/
+  .repair-section {
+    padding-bottom: 30px;
+  }
+  .repair-section .repair-image {
+    margin-bottom: 20px;
+  }
+  .repair-section .repair-image img {
+    height: 300px;
+  }
+  .repair-section .personal {
+    padding-bottom: 30px;
+  }
+  .repair-section .personal p {
+    margin: 0;
+  }
+  .repair-section .personal ul {
+    padding-left: 150px;
+  }
+
+  /*===============inforamtion-section===============*/
+  .info-section .image img {
+    height: 300px;
+  }
+
+  /*===============process-section===============*/
+  .process-section .facility {
+    padding: 35px 0;
+  }
+
+  /*===============article-section===============*/
+  .our-article .show-slide .article img {
+    height: 300px;
+  }
+  .our-article .show-slide .article .show-overlay {
+    left: 20px;
+    bottom: 10px;
+  }
+
+  /*===============contact-section===============*/
+  /*===============about-section===============*/
+  /*===============support-section===============*/
+  .support-section {
+    padding-top: 50px;
+  }
+  .support-section .detail {
+    padding: 0 50px;
+    padding-bottom: 30px;
+  }
+  .support-section .detail .logo {
+    padding-bottom: 20px;
+  }
+  .support-section .detail .logo img {
+    height: 50px;
+  }
+  .support-section .list-nav {
+    padding: 0;
+    padding-left: 100px;
+  }
+  .support-section .list-nav ul {
+    margin: 0;
+    padding-bottom: 0;
+  }
+  .support-section .list-nav .about-list {
+    padding-bottom: 30px;
+  }
+  .support-section .list-nav .third-list {
+    padding: 0;
+    padding-bottom: 30px;
+  }
+  .support-section .connect-now {
+    padding-left: 50px;
+    padding-bottom: 0;
+  }
+  .support-section .connect-now form input {
+    padding: 15px;
+  }
+
+  /*===============header-section===============*/
+}
+@media only screen and (max-width: 576px) {
+  .main-head {
+    font-size: 2rem;
+  }
+
+  .secondary-head {
+    font-size: 1.3rem;
+  }
+
+  .small-head {
+    font-size: 1.2rem;
+  }
+
+  .para {
+    font-size: 0.95rem;
+  }
+
+  .get-btn {
+    padding: 12px 25px;
+  }
+
+  .tag {
+    font-size: 0.95rem;
+    padding: 10px 16px;
+    margin-top: 15px;
+  }
+
+  /*===============header-section===============*/
+  .header-main .header-content {
+    padding-top: 20px;
+  }
+  .header-main .header-content h1 {
+    font-size: 2.5rem;
+  }
+  .header-main .header-content .water-mark {
+    font-size: 4rem;
+    top: -10px;
+  }
+
+  /*===============header-section===============*/
+  /*===============perfomence-section===============*/
+  /*===============service-section===============*/
+  .our-service .service .icon .fas {
+    font-size: 3rem;
+  }
+
+  /*===============repairs-section===============*/
+  .repair-section .repair-image img {
+    height: 250px;
+  }
+
+  /*===============inforamtion-section===============*/
+  .info-section .image img {
+    height: 250px;
+  }
+
+  /*===============product-section===============*/
+  .our-product .product img {
+    width: 85%;
+    margin: 0 auto;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  /*===============process-section===============*/
+  /*===============article-section===============*/
+  .our-article .show-slide .article img {
+    height: 250px;
+  }
+  .our-article .more-article .blog img {
+    height: 250px;
+  }
+
+  /*===============contact-section===============*/
+  /*===============about-section===============*/
+  /*===============footer-section===============*/
+  /*===============header-section===============*/
+}
+@media only screen and (max-width: 480px) {
+  .main-head {
+    font-size: 1.8rem;
+  }
+
+  .secondary-head {
+    font-size: 1.2rem;
+  }
+
+  .small-head {
+    font-size: 1rem;
+  }
+
+  .para {
+    font-size: 0.95rem;
+  }
+
+  .get-btn {
+    padding: 12px 20px;
+    font-size: 0.95rem;
+  }
+
+  .tag {
+    font-size: 0.85rem;
+    padding: 8px 12px;
+    margin-top: 15px;
+  }
+
+  .main-btn {
+    padding: 15px 45px;
+  }
+
+  /*===============header-section===============*/
+  .header-main .header-content h1 {
+    font-size: 2rem;
+  }
+  .header-main .header-content .water-mark {
+    font-size: 3rem;
+  }
+  .header-main .image img {
+    height: 350px;
+  }
+
+  /*===============header-section===============*/
+  /*===============perfomence-section===============*/
+  /*===============service-section===============*/
+  .our-service .service-head {
+    text-align: center;
+  }
+  .our-service .service-head .btn-box {
+    display: none;
+  }
+  .our-service .service-head .box-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .our-service .service .icon .fas {
+    font-size: 2.8rem;
+  }
+
+  /*===============repairs-section===============*/
+  .repair-section .personal ul {
+    padding-left: 70px;
+  }
+
+  /*===============inforamtion-section===============*/
+  .our-product .product img {
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  /*===============process-section===============*/
+  .process-section .facility {
+    padding: 25px 0;
+  }
+
+  /*===============article-section===============*/
+  .our-article {
+    padding-bottom: 20px;
+  }
+  .our-article .more-article .blog {
+    padding-top: 20px;
+  }
+
+  /*===============product-section===============*/
+  .our-product {
+    padding-bottom: 20px;
+  }
+
+  /*===============contact-section===============*/
+  .contact-us {
+    padding-bottom: 40px;
+  }
+
+  /*===============about-section===============*/
+  /*===============footer-section===============*/
+  /*===============support-section===============*/
+  .support-section {
+    padding-top: 50px;
+  }
+  .support-section .detail {
+    padding: 0 20px;
+    padding-bottom: 30px;
+  }
+  .support-section .detail .logo img {
+    height: 40px;
+  }
+  .support-section .list-nav {
+    padding: 0;
+    padding-left: 60px;
+  }
+  .support-section .list-nav ul {
+    margin: 0;
+    padding-bottom: 0;
+  }
+  .support-section .connect-now {
+    padding-left: 20px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .main-btn {
+    padding: 12px 35px;
+  }
+
+  /*===============header-section===============*/
+  /*===============header-section===============*/
+  /*===============perfomence-section===============*/
+  /*===============service-section===============*/
+  /*===============repairs-section===============*/
+  .repair-section .personal ul {
+    padding-left: 20px;
+  }
+
+  /*===============inforamtion-section===============*/
+  /*===============process-section===============*/
+  /*===============article-section===============*/
+  /*===============contact-section===============*/
+  /*===============about-section===============*/
+  /*===============footer-section===============*/
+  /*===============support-section===============*/
+  .support-section .detail {
+    padding: 0;
+    padding-bottom: 15px;
+  }
+  .support-section .list-nav {
+    padding: 0;
+    padding-left: 30px;
+  }
+  .support-section .connect-now {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /*===============header-section===============*/
+  /*===============header-section===============*/
+  /*===============perfomence-section===============*/
+  /*===============service-section===============*/
+  /*===============repairs-section===============*/
+  /*===============inforamtion-section===============*/
+  /*===============process-section===============*/
+  /*===============article-section===============*/
+  /*===============contact-section===============*/
+  /*===============about-section===============*/
+  /*===============footer-section===============*/
+  /*===============header-section===============*/
+}
+/*===============header-section===============*//*# sourceMappingURL=style.css.map */

@@ -1,0 +1,154 @@
+
+/*
+    --e-global-color-primary: #D16527;
+    --e-global-color-secondary: #121212;
+    --e-global-color-text: #161616;
+    --e-global-color-accent: #242424;
+    --e-global-color-11fee7f: #606060;
+    --e-global-color-7ff2b2d: #C6C6C6;
+    --e-global-color-0d3036c: #EDEDED;
+    --e-global-color-024918e: #ECCD39
+*/
+/*=========Color-Variable========*/
+$mainbgColor: #161616;
+$bgColor: #121212;
+$btnColor: #CC6326;
+$mainColor: #EDEDED; 
+$textColor: #AAC0C6;
+$contentColor: #C6C6BB;
+$btnText: #FFFFFF;
+$primeColor: #D16527;
+$borderColor: #AAC0C6;
+$listColor: #606060;
+$numColor: #884E26;
+/*=========Font-Variable========*/
+$mainFont: 'Chakra Petch', sans-serif;
+$secondaryFont: 'Mulish', sans-serif;
+$textFont: 'Open Sans', sans-serif;
+/*=========Other-Variable========*/
+$textUpper: uppercase;
+
+%mainBtn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+%flexCenter{
+    justify-content: center;
+    align-items: center;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    font-family: $textFont;
+    line-height: 1.5; 
+    background-color: $mainbgColor;
+}
+
+.main-head{
+    font-size: 2.2rem;
+    font-weight: 700;
+    font-family: $mainFont;
+    text-transform: $textUpper;
+    color: $mainColor;
+    padding-bottom: 10px;
+
+}
+.secondary-head{
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: $mainFont;
+    text-transform: $textUpper;
+    color: $mainColor; 
+    padding-bottom: 10px;
+}
+.small-head{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: $textUpper;
+    font-family: $mainFont;
+    color: $mainColor;
+}
+.para{
+    font-size: 1rem;
+    font-family: $textFont;
+    color: $contentColor;
+    padding-bottom: 10px;
+}
+.flex-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.get-btn{
+    @extend %mainBtn;
+    padding: 15px 25px;
+    clip-path: polygon(14% 0, 100% 0, 100% 72%, 86% 100%, 2% 100%, 1% 27%);
+    background-color: $btnColor;
+    color: $btnText;
+    font-weight: 600;
+    font-family: $mainFont;
+}
+.tag{
+    font-size: 0.95rem;
+    padding: 10px 16px;
+    color: $mainColor;
+    background-color: $listColor;
+    text-transform: $textUpper;
+    font-family: $mainFont;
+    font-size: 300;
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.tag1{
+    background-color: $primeColor; 
+
+} 
+.main-btn{
+    padding: 15px 60px;
+    margin-top: 10px;
+
+}
+.back-panel{
+    padding: 20px 0;
+    background-color: $bgColor;
+
+}
+.box-btn{
+    display: none;
+}
+/*===============header-section===============*/
+@import"customNav";
+/*===============header-section===============*/
+@import "headerSection";
+/*===============perfomence-section===============*/
+/*===============service-section===============*/
+@import "service";
+/*===============repairs-section===============*/
+@import "repair";
+/*===============inforamtion-section===============*/
+@import "info";
+/*===============process-section===============*/
+@import "process";
+@import "product";
+/*===============article-section===============*/
+@import "blog";
+/*===============contact-section===============*/
+@import "contact";
+/*===============about-section===============*/
+@import "support";
+/*===============footer-section===============*/
+@import "mymedia";   
+
+/*===============header-section===============*/ 

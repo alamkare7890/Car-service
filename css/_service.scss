@@ -1,0 +1,31 @@
+.our-service{
+    padding: 50px 0;
+    .service-head{
+        padding-bottom: 30px;
+        position: relative;
+
+        .btn-box{
+            position: absolute;
+            right: 0;
+            bottom: 50px;
+        }
+
+
+    }
+
+    .service{
+        padding: 50px 10px 50px 0;
+        border-top: 1px solid $borderColor;
+
+        .icon{
+            padding-bottom: 40px;
+            .fab, .fas{ 
+                font-size: 2rem;
+                color: $mainColor;
+            }
+        }
+
+    } 
+
+
+}

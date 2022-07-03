@@ -1,0 +1,68 @@
+.repair-section{
+    padding-bottom: 80px;
+    .head{
+        padding: 10px 0;
+        border-bottom: 1px solid $borderColor;
+    }
+    .repair-image{
+        margin: 35px 0 80px 0;
+        img{
+            width: 100%;
+            height: 500px;
+            object-fit: cover; 
+        } 
+    }
+
+    .repair-content{
+        h3{
+            border-top: 1px solid $borderColor;
+        }
+
+    }
+
+    .personal{
+        border-top: 1px solid $borderColor;
+            text-align: center;
+        p{
+            padding-top: 20px;
+        }
+        h3{ 
+            padding-top: 10px;
+            text-align: center;
+        }
+        ul{
+            text-align: left;
+            padding: 30px 50px;
+
+            li{
+                color: $mainColor;
+                padding-bottom: 20px;
+            }
+            li:nth-last-child(1){
+                color: $listColor;
+            }       
+            li:nth-last-child(2){
+                color: $listColor;
+            }  
+        }
+        .option-btn{
+            padding: 20px 80px;
+        }
+
+    }
+    .professional{
+
+        ul{
+
+            li:nth-last-child(1){
+                color: $mainColor;
+            }
+            
+            li:nth-last-child(2){
+                color: $mainColor;
+            }
+
+        } 
+    }
+
+} 

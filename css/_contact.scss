@@ -1,0 +1,32 @@
+.contact-us{
+    padding-bottom: 70px;
+
+    form{
+
+        label{
+            color: $mainColor;
+            font-size: 0.85rem;
+            text-transform: $textUpper;
+        }
+        .input-space{
+            background-color: transparent;  
+            border: none;
+            outline: none;
+            font-size: 1rem;
+            border-bottom: 1px solid $borderColor;
+            border-radius: 0;
+            
+        } 
+        .input-space::placeholder{
+            font-size: 1rem;
+            color: $listColor;
+            text-transform: capitalize;
+        }
+
+
+
+
+
+    }
+
+}

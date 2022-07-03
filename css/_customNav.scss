@@ -1,0 +1,46 @@
+.navigation{
+    padding: 15px;
+  
+    .logo{
+
+        img{
+            width: 100%;
+            height: 60px;
+            object-fit: cover;
+        }
+    }
+
+    .navi-nav{
+        justify-content: center;
+    }
+
+    .call-us{
+
+        a{
+            text-decoration: none;
+            color: $btnText;
+        }
+    }
+
+}
+
+.custom-nav{
+    
+    .active{
+        color: $primeColor;
+        /*text-decoration: 1px underline $primeColor;*/
+
+    }
+    li{
+        margin-left: 15px;
+        a{
+           color: $btnText; 
+            font-size: 0.85rem;
+        }
+    }
+
+}
+
+
+
+

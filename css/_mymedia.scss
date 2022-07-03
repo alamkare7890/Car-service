@@ -1,0 +1,1075 @@
+@media only screen and (min-width:1680px){
+%mainBtn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+/*=============commmon===========*/
+html,body{
+    font-size: 24px;
+    width: 100%;
+    height: 100%;
+    font-family: $textFont;
+    line-height: 1.5; 
+    background-color: $mainbgColor;
+}
+
+.main-head{
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: $mainFont;
+    text-transform: $textUpper;
+    color: $mainColor;
+    padding-bottom: 10px;
+
+}
+.secondary-head{
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: $mainFont;
+    text-transform: $textUpper;
+    color: $mainColor; 
+    padding-bottom: 10px;
+}
+.small-head{
+    font-size: 0.90rem;
+    font-weight: 600;
+    text-transform: $textUpper;
+    font-family: $mainFont;
+    color: $mainColor;
+}
+.para{
+    font-size: 0.75rem;
+    font-family: $textFont;
+    color: $contentColor;
+    padding-bottom: 10px;
+}
+.flex-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.max-width{
+    max-width: 1366px;
+}
+.get-btn{
+    padding: 15px 30px;
+    
+}
+.tag{
+    font-size: 0.95rem;
+    padding: 12px 18px;
+    color: $mainColor;
+    background-color: $listColor;
+    text-transform: $textUpper;
+    font-family: $mainFont;
+    font-size: 300;
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.tag1{
+    background-color: $primeColor; 
+
+} 
+.back-panel{
+    padding: 30px 0;
+    background-color: $bgColor;
+
+}
+
+
+/*===============nav-section===============*/
+/*===============header-section===============*/
+/*===============perfomence-section===============*/
+/*===============service-section===============*/
+/*===============repairs-section===============*/
+/*===============inforamtion-section===============*/
+
+/*===============process-section===============*/
+/*===============article-section===============*/
+/*===============contact-section===============*/
+/*===============about-section===============*/
+/*===============footer-section===============*/
+/*===============header-section===============*/ 
+}
+@media only screen and (min-width:1366px) and (max-width:1680px){ 
+
+/*=============commmon===========*/
+html,body{
+    font-size: 22px; 
+    width: 100%;
+    height: 100%;
+    font-family: $textFont;
+    line-height: 1.5; 
+    background-color: $mainbgColor;
+}
+
+.main-head{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: $mainFont;
+    text-transform: $textUpper;
+    color: $mainColor;
+    padding-bottom: 10px;
+
+}
+.secondary-head{
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: $mainFont;
+    text-transform: $textUpper;
+    color: $mainColor; 
+    padding-bottom: 10px;
+}
+.small-head{
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: $textUpper;
+    font-family: $mainFont;
+    color: $mainColor;
+}
+.para{
+    font-size: 0.75rem;
+    font-family: $textFont;
+    color: $contentColor;
+    padding-bottom: 10px;
+}
+.flex-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.max-width{
+    max-width: 1366px;
+}
+.get-btn{
+    padding: 15px 30px;
+   
+}
+.tag{
+    font-size: 0.95rem;
+    padding: 12px 18px;
+    color: $mainColor;
+    background-color: $listColor;
+    text-transform: $textUpper;
+    font-family: $mainFont;
+    font-size: 300;
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.tag1{
+    background-color: $primeColor; 
+
+} 
+.back-panel{
+    padding: 30px 0;
+    background-color: $bgColor;
+
+}
+
+
+/*===============nav-section===============*/
+/*===============header-section===============*/
+.header-main{
+
+    .header-content{
+
+        .water-mark{
+            top: -30px;
+        }
+    }
+}
+/*===============perfomence-section===============*/
+/*===============service-section===============*/
+/*===============repairs-section===============*/
+/*===============inforamtion-section===============*/
+.info-section{
+
+    .content{
+        padding: 50px;
+
+        .service-mark{
+            top: 10px;
+            left: 50px;
+        }
+    
+    }
+
+    .content-two{
+        padding: 50px;
+        position: relative;
+
+        .service-mark{
+            top: 10px;
+            left: 50px;
+        }
+    }
+}
+
+/*===============process-section===============*/
+.process-section{
+    padding: 100px 0;
+
+}
+/*===============product-section===============*/
+.our-product{
+
+    .product-head{
+        padding: 15px;
+    }
+}
+
+/*===============article-section===============*/
+/*===============contact-section===============*/
+/*===============about-section===============*/
+.support-section{
+    .list-nav{
+
+        ul{
+            li{
+                font-size: 0.70rem;
+            }   
+    
+        }
+    }
+}
+/*===============footer-section===============*/
+/*===============header-section===============*/ 
+}
+@media only screen and (max-width:1366px){
+html,body{
+    font-size: 18px; 
+ 
+}
+
+.main-head{
+    font-size: 1.8rem;
+
+
+}
+.secondary-head{
+    font-size: 1.2rem;
+
+}
+.small-head{
+    font-size: 1rem;
+}
+.para{
+    font-size: 0.95rem;
+ 
+}
+
+
+.get-btn{
+    padding: 15px 30px;
+   
+}
+.tag{
+    font-size: 0.95rem;
+    padding: 12px 18px;
+   
+    
+}
+
+
+
+
+
+/*===============nav-section===============*/
+.navigation{
+
+    .logo{
+
+        img{
+            height: 50px;
+        }
+    }
+}
+/*===============header-section===============*/
+.header-main{
+    padding: 50px 0 0 0;
+    .header-content{
+
+        h1{
+            font-size: 2.5rem;
+        }
+        .water-mark{
+            font-size: 5rem;
+            top: 10px;
+        }
+    }
+}
+/*===============perfomence-section===============*/
+.our-perform{
+    padding: 70px 0;
+
+    .work{
+    }
+}
+/*===============service-section===============*/
+.repair-section{
+
+    .repair-image{
+
+        img{
+            height: 400px;
+        }
+    }
+}
+/*===============repairs-section===============*/
+.repair-section{
+
+    .personal{
+
+        ul{
+            padding: 20px 0;
+            padding-left: 50px;
+        }
+        .option-btn{
+            padding: 15px 60px;
+        }
+    }
+
+}
+/*===============inforamtion-section===============*/
+.info-section{
+
+    .image{
+
+        img{
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+    }
+
+    .content{
+        padding: 20px;
+
+        .service-mark{
+            top: -5px;
+            left: 20px;
+
+        }
+
+    }
+
+    .content-two{
+        padding: 20px;
+
+        .service-mark{
+            top: -5px;
+            left: 20px;
+
+        }
+
+    }
+
+
+}
+/*===============process-section===============*/
+.process-section{
+    padding: 70px 0;
+}
+/*===============article-section===============*/
+.our-article{
+
+    .show-slide{
+
+        .article{
+
+            img{
+                height: 400px;
+            }
+        }
+    }
+
+}
+/*===============contact-section===============*/
+/*===============about-section===============*/
+/*===============support-section===============*/
+.support-section{
+
+    .list-nav{
+
+        li{
+            font-size: 0.7rem;
+        }
+    }
+
+}
+/*===============header-section===============*/ 
+}
+@media only screen and (max-width:991px){
+html,body{
+    font-size: 16px; 
+ 
+}
+
+.main-head{
+    font-size: 2.5rem;
+
+
+}
+.secondary-head{
+    font-size: 1.5rem;
+
+}
+.small-head{
+    font-size: 1.2rem;
+}
+.para{
+    font-size: 0.95rem;
+ 
+}
+
+
+.get-btn{
+    padding: 15px 30px;
+   
+}
+.tag{
+    font-size: 0.95rem;
+    padding: 12px 18px;
+    margin-top: 15px;
+    
+}
+
+
+
+/*===============header-section===============*/
+.header-main{
+
+    .header-content{
+
+        h1{
+            font-size: 3rem;
+        }
+
+        .water-mark{
+            top: 10px;
+        }
+    }
+    .image{
+
+        img{
+            height: 600px;
+            object-fit: contain;
+        }
+    }
+
+}
+/*===============header-section===============*/
+/*===============perfomence-section===============*/
+/*===============service-section===============*/
+/*===============repairs-section===============*/
+.repair-section{
+
+    .personal{
+
+        ul{
+            padding-left: 120px;
+        }
+    }
+}
+/*===============inforamtion-section===============*/
+.info-section{
+
+    .image{
+        img{
+            order: 0;
+        }
+    }
+
+    .content{
+        padding-top: 50px;
+
+        .service-mark{
+            top: 25px;
+        }
+        ul{
+            margin: 0; 
+            padding: 0;
+            padding-left: 30px;
+
+        }
+        
+        /*ul:nth-last-child(2){
+            padding-bottom: 20px;
+
+        }*/
+    }
+
+    .content-two{
+        padding-top: 50px;
+
+        .service-mark{
+            top: 25px;
+        }
+
+    }
+}
+/*===============process-section===============*/
+/*===============article-section===============*/
+.our-article{ 
+    .more-article{ 
+        .blog{ 
+            img{
+                height: 280px;
+            }
+        }    
+    }
+}
+/*===============contact-section===============*/
+.contact-us{
+
+    form{
+
+        label{
+            font-size: 1rem;
+        }
+
+        .input-space{
+            padding: 15px;
+        }
+
+        select{
+            padding: 15px;
+        }
+    }
+
+}
+/*===============about-section===============*/
+/*===============footer-section===============*/
+/*===============support-section===============*/ 
+.support-section{
+    padding-top: 30px;
+    .detail{
+        padding: 0 50px;
+
+        span{
+            font-size: 0.95rem;
+        }
+
+    }
+
+    .list-nav{
+        padding-left: 50px;
+        padding-top: 50px;
+        ul{
+            li{
+                font-size: 1rem;
+            }
+        }
+    }
+    .connect-now{
+        padding: 0 50px 50px 50px;
+    }
+
+
+}
+}
+@media only screen and (max-width:768px){
+
+
+
+/*===============header-section===============*/
+/*===============header-section===============*/
+.header-main{
+    .header-content{
+
+
+        .water-mark{
+            font-size: 5rem;
+            top: 20px;
+        }
+    }
+    .image{
+
+        img{
+            height: 450px;
+        }
+    }
+}
+/*===============perfomence-section===============*/
+.our-perform{
+    padding: 30px 0;
+    .work{
+        padding-top: 15px;
+        text-align: center;
+        border-bottom: 1px solid $borderColor;
+    }
+}
+/*===============service-section===============*/
+/*===============repairs-section===============*/
+.repair-section{
+    padding-bottom: 30px;
+    .repair-image{
+        margin-bottom: 20px;
+        img{
+            height: 300px;
+        }
+    }
+    .personal{
+        padding-bottom: 30px;
+        p{
+            margin: 0;
+        }
+        ul{
+            padding-left: 150px;
+        }
+
+
+    }
+}
+/*===============inforamtion-section===============*/
+.info-section{
+
+    .image{
+        img{
+            height: 300px;
+        }
+    }
+}
+/*===============process-section===============*/
+.process-section{
+
+    .facility{
+        padding: 35px 0;
+    }
+}
+/*===============article-section===============*/
+.our-article{
+
+    .show-slide{
+
+        .article{
+
+            img{
+                height: 300px;
+            }
+
+            .show-overlay{
+                left: 20px;
+                bottom: 10px;
+            }
+
+        }
+    }
+}
+/*===============contact-section===============*/
+/*===============about-section===============*/
+/*===============support-section===============*/
+.support-section{
+    padding-top: 50px;
+    .detail{
+        padding: 0 50px;
+        padding-bottom: 30px;
+        .logo{
+
+            img{
+                height: 50px;
+            }
+            padding-bottom: 20px;
+        }
+
+    }
+
+    .list-nav{
+        padding: 0;
+        padding-left: 100px;
+        ul{
+            margin: 0;
+            padding-bottom: 0;
+        }
+
+        .about-list{
+            padding-bottom: 30px;
+        }
+
+        .third-list{
+            padding: 0;
+            padding-bottom: 30px;
+        }
+    }
+    .connect-now{
+        padding-left: 50px;
+        padding-bottom: 0;
+
+        form{
+
+            input{
+                padding: 15px;
+            }
+        }
+
+    }
+
+
+}
+/*===============header-section===============*/ 
+}
+
+
+@media only screen and (max-width:576px){
+
+.main-head{
+    font-size: 2rem;
+
+
+}
+.secondary-head{
+    font-size: 1.3rem;
+
+}
+.small-head{
+    font-size: 1.2rem;
+}
+.para{
+    font-size: 0.95rem;
+ 
+}
+
+
+.get-btn{
+    padding: 12px 25px;
+   
+}
+.tag{
+    font-size: 0.95rem;
+    padding: 10px 16px;
+    margin-top: 15px;
+    
+}
+
+
+/*===============header-section===============*/
+.header-main{
+
+    .header-content{
+        padding-top: 20px;
+        h1{
+            font-size: 2.5rem;
+        }
+        .water-mark{
+            font-size: 4rem;
+            top: -10px;
+        }
+
+    }
+
+}
+/*===============header-section===============*/
+/*===============perfomence-section===============*/
+/*===============service-section===============*/
+.our-service{
+
+    .service{ 
+
+        .icon{
+
+            .fas{
+                font-size: 3rem;
+            }
+        }
+    }
+
+}
+/*===============repairs-section===============*/
+.repair-section{
+    .repair-image{
+        img{
+            height: 250px;
+        }
+    }
+}
+/*===============inforamtion-section===============*/
+.info-section{
+
+    .image{
+        img{
+            height: 250px;
+        }
+    }
+}
+/*===============product-section===============*/
+.our-product{
+
+    .product{
+
+        img{
+            width: 85%;
+            margin: 0 auto;
+            height: 300px;
+
+            object-fit: cover;
+        }
+    }
+}
+/*===============process-section===============*/
+/*===============article-section===============*/
+.our-article{
+
+    .show-slide{
+
+        .article{
+
+            img{
+                height: 250px;
+            }
+        }
+    }
+    .more-article{
+
+        .blog{
+
+            img{
+                height: 250px;
+            }
+        }
+    }
+
+}
+/*===============contact-section===============*/
+/*===============about-section===============*/
+/*===============footer-section===============*/
+/*===============header-section===============*/ 
+}
+@media only screen and (max-width:480px){
+.main-head{
+    font-size: 1.8rem;
+
+
+}
+.secondary-head{
+    font-size: 1.2rem;
+
+}
+.small-head{
+    font-size: 1rem;
+}
+.para{
+    font-size: 0.95rem;
+ 
+}
+
+
+.get-btn{
+    padding: 12px 20px;
+    font-size: 0.95rem;
+}
+.tag{
+    font-size: 0.85rem;
+    padding: 8px 12px;
+    margin-top: 15px;
+    
+}
+.main-btn{
+    padding: 15px 45px;
+
+}
+
+/*===============header-section===============*/
+.header-main{
+
+    .header-content{
+        h1{
+            font-size: 2rem;
+        }
+        .water-mark{
+            font-size: 3rem;
+        }
+
+    }
+    .image{
+
+        img{
+            height: 350px;
+        }
+    }
+
+
+}
+/*===============header-section===============*/
+/*===============perfomence-section===============*/
+/*===============service-section===============*/
+.our-service{
+
+    .service-head{
+        text-align: center;
+        .btn-box{
+            display: none;
+        }
+        .box-btn{
+            display: flex;
+            justify-content: center;
+
+        }
+
+    }
+
+    .service{ 
+
+        .icon{
+
+            .fas{
+                font-size: 2.8rem;
+            }
+        }
+    }
+
+}
+
+/*===============repairs-section===============*/
+.repair-section{
+
+    .personal{
+
+        ul{
+            padding-left: 70px;
+        }
+    }
+}
+/*===============inforamtion-section===============*/
+.our-product{
+
+    .product{
+
+        img{
+            width: 100%;
+            margin: 0 auto;
+            height: 300px;
+
+            object-fit: cover;
+        }
+    }
+}
+/*===============process-section===============*/
+.process-section{
+
+    .facility{
+        padding: 25px 0;
+    }
+}
+/*===============article-section===============*/
+.our-article{
+    padding-bottom: 20px;
+    .more-article{
+
+        .blog{
+            padding-top: 20px;
+        }
+    }
+
+}
+/*===============product-section===============*/
+.our-product{
+    padding-bottom: 20px;
+
+}
+/*===============contact-section===============*/
+.contact-us{
+    padding-bottom: 40px;
+
+
+
+
+}
+/*===============about-section===============*/
+/*===============footer-section===============*/
+/*===============support-section===============*/ 
+.support-section{
+    padding-top: 50px;
+    .detail{
+        padding: 0 20px;
+        padding-bottom: 30px;
+        .logo{
+
+            img{
+                height: 40px;
+            }
+        }
+
+    }
+
+    .list-nav{
+        padding: 0;
+        padding-left: 60px;
+        ul{
+            margin: 0;
+            padding-bottom: 0;
+        }
+
+
+        
+    }
+    .connect-now{
+        padding-left: 20px;
+
+    }
+
+
+}
+}
+
+@media only screen and (max-width:360px){
+
+.main-btn{
+    padding: 12px 35px;
+
+}
+/*===============header-section===============*/
+/*===============header-section===============*/
+/*===============perfomence-section===============*/
+/*===============service-section===============*/
+/*===============repairs-section===============*/
+.repair-section{
+
+    .personal{
+
+        ul{
+            padding-left: 20px;
+        }
+    }
+}
+/*===============inforamtion-section===============*/
+/*===============process-section===============*/
+/*===============article-section===============*/
+/*===============contact-section===============*/
+/*===============about-section===============*/
+/*===============footer-section===============*/
+/*===============support-section===============*/ 
+.support-section{
+
+    .detail{
+        padding: 0;
+        padding-bottom: 15px;
+    }
+    .list-nav{
+        padding: 0;
+        padding-left: 30px;
+    }
+    .connect-now{
+        padding: 0;
+    }
+}
+}
+
+@media only screen and (max-width: 320px){
+
+
+/*===============header-section===============*/
+/*===============header-section===============*/
+/*===============perfomence-section===============*/
+/*===============service-section===============*/
+/*===============repairs-section===============*/
+/*===============inforamtion-section===============*/
+/*===============process-section===============*/
+/*===============article-section===============*/
+/*===============contact-section===============*/
+/*===============about-section===============*/
+/*===============footer-section===============*/
+/*===============header-section===============*/ 
+}
+
