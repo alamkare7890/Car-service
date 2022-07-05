@@ -436,7 +436,36 @@ html,body{
     
 }
 
+.navigation{
 
+    .call-us{
+        display: none;
+    }
+
+    .nav-btn{
+        width: 35px;
+        height: 35px;
+        background-color: $btnColor;
+        display: grid;
+        place-content: center;
+        .navbtn-toggle{
+            width: 85%;
+            height: 5%;
+            background-color: $mainColor;
+            
+        }   
+    
+    }
+
+
+    .drop-item{
+
+        background-color: $bgColor;
+        color: $mainColor;
+
+    }
+
+}
 
 /*===============header-section===============*/
 .header-main{

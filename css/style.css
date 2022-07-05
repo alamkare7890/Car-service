@@ -958,6 +958,26 @@ html, body {
     margin-top: 15px;
   }
 
+  .navigation .call-us {
+    display: none;
+  }
+  .navigation .nav-btn {
+    width: 35px;
+    height: 35px;
+    background-color: #CC6326;
+    display: grid;
+    place-content: center;
+  }
+  .navigation .nav-btn .navbtn-toggle {
+    width: 85%;
+    height: 5%;
+    background-color: #EDEDED;
+  }
+  .navigation .drop-item {
+    background-color: #121212;
+    color: #EDEDED;
+  }
+
   /*===============header-section===============*/
   .header-main .header-content h1 {
     font-size: 3rem;
