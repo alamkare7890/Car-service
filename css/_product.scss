@@ -33,6 +33,28 @@
             }
 
         }
+
+
+    }
+    .slick-dots{
+        @extend %flexCenter;
+        display: flex;
+        list-style-type: none;
+        outline: none;
+        border: none;
+        li{
+            @extend %flexCenter;
+            display: flex;
+            width: 15px;
+            height: 15px;
+            background-color: $btnColor;
+            border-radius: 50%;
+            font-size: 0px;
+            margin-left: 10px;
+            color: $btnColor;
+            cursor: pointer;
+        }
+
     }
 
     

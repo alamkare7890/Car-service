@@ -19,6 +19,11 @@
   text-transform: uppercase;
 }
 
+.our-product .slick-dots li, .our-product .slick-dots {
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -239,7 +244,7 @@ html, body {
 }
 .our-service .service .icon .fab, .our-service .service .icon .fas {
   font-size: 2rem;
-  color: #EDEDED;
+  color: #AAC0C6;
 }
 
 /*===============repairs-section===============*/
@@ -405,6 +410,23 @@ html, body {
   padding-right: 10px;
   font-weight: 400;
   color: #606060;
+}
+.our-product .slick-dots {
+  display: flex;
+  list-style-type: none;
+  outline: none;
+  border: none;
+}
+.our-product .slick-dots li {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  background-color: #CC6326;
+  border-radius: 50%;
+  font-size: 0px;
+  margin-left: 10px;
+  color: #CC6326;
+  cursor: pointer;
 }
 
 /*===============article-section===============*/
