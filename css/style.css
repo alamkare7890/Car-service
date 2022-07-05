@@ -12,7 +12,7 @@
 /*=========Color-Variable========*/
 /*=========Font-Variable========*/
 /*=========Other-Variable========*/
-.get-btn {
+.icon-btn, .get-btn {
   text-decoration: none;
   display: inline-block;
   font-size: 1rem;
@@ -23,6 +23,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
 
 html, body {
@@ -74,24 +82,51 @@ html, body {
 
 .get-btn {
   padding: 15px 25px;
-  -webkit-clip-path: polygon(14% 0, 100% 0, 100% 72%, 86% 100%, 2% 100%, 1% 27%);
-          clip-path: polygon(14% 0, 100% 0, 100% 72%, 86% 100%, 2% 100%, 1% 27%);
+  -webkit-clip-path: polygon(19% 0, 100% 0, 100% 75%, 81% 100%, 0 100%, 0 19%);
+          clip-path: polygon(19% 0, 100% 0, 100% 75%, 81% 100%, 0 100%, 0 19%);
   background-color: #CC6326;
   color: #FFFFFF;
   font-weight: 600;
   font-family: "Chakra Petch", sans-serif;
+  transition: all 0.3s linear;
+  border: 2px solid #CC6326;
+}
+
+.get-btn:hover, .icon-btn:hover {
+  text-decoration: none;
+  color: #CC6326;
+  background-color: #EDEDED;
+  border: 2px solid #CC6326;
+}
+
+.icon-btn {
+  padding: 3px 15px;
+  -webkit-clip-path: polygon(19% 0, 100% 0, 100% 75%, 81% 100%, 0 100%, 0 19%);
+          clip-path: polygon(19% 0, 100% 0, 100% 75%, 81% 100%, 0 100%, 0 19%);
+  background-color: #CC6326;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-family: "Chakra Petch", sans-serif;
+  transition: all 0.3s linear;
+  border: 2px solid #CC6326;
 }
 
 .tag {
   font-size: 0.95rem;
   padding: 10px 16px;
   color: #EDEDED;
+  text-decoration: none;
   background-color: #606060;
   text-transform: uppercase;
   font-family: "Chakra Petch", sans-serif;
   font-size: 300;
   display: inline-block;
   margin-right: 10px;
+}
+
+.tag:hover {
+  text-decoration: none;
+  color: #EDEDED;
 }
 
 .tag1 {
@@ -194,6 +229,10 @@ html, body {
 .our-service .service {
   padding: 50px 10px 50px 0;
   border-top: 1px solid #AAC0C6;
+}
+.our-service .service a {
+  color: #EDEDED;
+  text-transform: capitalize;
 }
 .our-service .service .icon {
   padding-bottom: 40px;
@@ -539,7 +578,7 @@ html, body {
 
 /*===============footer-section===============*/
 @media only screen and (min-width: 1680px) {
-  .get-btn {
+  .get-btn, .icon-btn {
     text-decoration: none;
     display: inline-block;
     font-size: 0.75rem;

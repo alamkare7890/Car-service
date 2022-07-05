@@ -6,7 +6,7 @@ $(document).ready(function () {
         slidesToShow: 3,
         slidesToScroll: 2,
         arrows: false,
-    
+        dots: true,
         responsive: [
             {
                 breakpoint: 768,
@@ -33,9 +33,10 @@ $(document).ready(function () {
     
     /*========Blog=slide========*/
     $('.show-slide').slick({
-    
-        arrows: false,    
-        
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000,    
+        infinite: true,
     })
     
     

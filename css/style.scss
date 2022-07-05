@@ -45,6 +45,12 @@ $textUpper: uppercase;
     margin: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
 
 html,body{
     font-size: 16px;
@@ -93,16 +99,40 @@ html,body{
 .get-btn{
     @extend %mainBtn;
     padding: 15px 25px;
-    clip-path: polygon(14% 0, 100% 0, 100% 72%, 86% 100%, 2% 100%, 1% 27%);
+    clip-path: polygon(19% 0, 100% 0, 100% 75%, 81% 100%, 0 100%, 0 19%);
     background-color: $btnColor;
     color: $btnText;
     font-weight: 600;
     font-family: $mainFont;
+    transition: all 0.3s linear;
+    border: 2px solid $btnColor;
+
+}
+.get-btn:hover, .icon-btn:hover{
+    text-decoration: none;
+    color: $btnColor;
+    background-color: $mainColor;
+    border: 2px solid $btnColor;
+
+}
+.icon-btn{
+    @extend %mainBtn;
+    padding: 3px 15px;
+    clip-path: polygon(19% 0, 100% 0, 100% 75%, 81% 100%, 0 100%, 0 19%);
+    background-color: $btnColor;
+    color: $btnText;
+    font-weight: 600;
+    font-family: $mainFont;
+    transition: all 0.3s linear;
+    border: 2px solid $btnColor;
+
+
 }
 .tag{
     font-size: 0.95rem;
     padding: 10px 16px;
     color: $mainColor;
+    text-decoration: none;
     background-color: $listColor;
     text-transform: $textUpper;
     font-family: $mainFont;
@@ -110,6 +140,10 @@ html,body{
     display: inline-block;
     margin-right: 10px;
     
+}
+.tag:hover{
+    text-decoration: none;
+    color: $mainColor;
 }
 .tag1{
     background-color: $primeColor; 
