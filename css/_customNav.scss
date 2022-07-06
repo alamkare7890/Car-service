@@ -1,6 +1,5 @@
 .navigation{
     padding: 15px;
-  
     .logo{
 
         img{
@@ -41,16 +40,16 @@
 
 .custom-nav{
     
-    .active{
-        color: $primeColor;
-        /*text-decoration: 1px underline $primeColor;*/
 
-    }
     li{
         margin-left: 15px;
         a{
-           color: $btnText; 
+            color: $btnText; 
             font-size: 0.85rem;
+                
+            i{
+                display: none;
+            }
         }
     }
 

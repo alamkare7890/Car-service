@@ -51,6 +51,10 @@ a{
 ul{
     list-style-type: none;
 }
+::selection{
+    background-color: $btnColor;
+
+}
 
 html,body{
     font-size: 16px;
@@ -59,8 +63,8 @@ html,body{
     font-family: $textFont;
     line-height: 1.5; 
     background-color: $mainbgColor;
+    scroll-behavior: smooth;
 }
-
 .main-head{
     font-size: 2.2rem;
     font-weight: 700;
@@ -157,8 +161,34 @@ html,body{
 .back-panel{
     padding: 10px 0;
     background-color: $bgColor;
+    position: fixed;
+    z-index: 10;
+    transition: 0.5s;
+    animation: scrollDown 1s ease-in;
 
 }
+@keyframes scrollDown{
+
+    0%{
+        opacity: 0.5;
+        
+    }
+    25%{
+        opacity: 0.7;
+    }
+    50%{
+        opacity: 0.9;
+    }
+
+    100%{
+        opacity: 1;
+    }
+
+
+
+
+}
+
 .box-btn{
     display: none;
 }

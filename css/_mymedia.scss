@@ -73,7 +73,7 @@ html,body{
 
 } 
 .back-panel{
-    padding: 30px 0;
+    padding: 20px 0;
     background-color: $bgColor;
 
 }
@@ -138,7 +138,7 @@ html,body{
 .flex-content{
     display: flex;
     flex-wrap: wrap;
-}
+} 
 .max-width{
     max-width: 1366px;
 }
@@ -163,7 +163,7 @@ html,body{
 
 } 
 .back-panel{
-    padding: 30px 0;
+    padding: 20px 0;
     background-color: $bgColor;
 
 }
@@ -288,7 +288,8 @@ html,body{
 }
 /*===============header-section===============*/
 .header-main{
-    padding: 50px 0 0 0;
+    padding-top: 100px;
+    padding-bottom: 30px;
     .header-content{
 
         h1{
@@ -437,6 +438,13 @@ html,body{
 
 .navigation{
 
+    .logo{
+
+        img{
+            height: 50px;
+        }
+    }
+
     .call-us{
         display: none;
     }
@@ -459,7 +467,7 @@ html,body{
         .navbtn-toggle::before{
             content: "";
             width: 85%;
-            height: 8%;
+            height: 10%;
             position: absolute;
             transition: all 0.4s ease;
             border-radius: 3px;
@@ -471,7 +479,7 @@ html,body{
         .navbtn-toggle::after{
             content: "";
             width: 85%;
-            height: 8%;
+            height: 10%;
             position: absolute;
             background-color: $mainColor;
             border-radius: 3px;
@@ -521,10 +529,52 @@ html,body{
   
 
 }
+.custom-nav{
+    z-index: 5;
+    li{
+        a{
+            color: $mainColor;
+
+            i{
+                display: inline;
+            }
+
+            
+        }
+    }
+
+    
+}
+/*
+.navi-nav::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    clip-path: polygon(50% 0%, 50% 0, 30% 99%, 75% 100%, 0 100%, 0 59%, 0 0);
+    background-color: $mainColor; 
+    z-index: -1;
+}
+.navi-nav::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 75% 100%, 76% 100%, 51% 100%, 76% 0);
+    background-color: $mainColor; 
+    z-index: -1;
+
+}*/
 
 /*===============header-section===============*/
 .header-main{
-
+    padding-top: 100px;
     .header-content{
 
         h1{
@@ -658,7 +708,10 @@ html,body{
 
 
 
-/*===============header-section===============*/
+/*===============Navigation-section===============*/
+
+
+
 /*===============header-section===============*/
 .header-main{
     .header-content{
@@ -715,6 +768,7 @@ html,body{
             height: 300px;
         }
     }
+   
 }
 /*===============process-section===============*/
 .process-section{
@@ -826,7 +880,25 @@ html,body{
     margin-top: 15px;
     
 }
+.navigation{
+    padding: 5px;
+    .logo{
 
+        img{
+            height: 40px;
+        }
+    }
+
+    .nav-btn{
+
+        .navbtn-toggle{
+            width: 40px;
+            height: 30px;
+
+        }
+    }
+    
+}
 
 /*===============header-section===============*/
 .header-main{
@@ -876,6 +948,31 @@ html,body{
             height: 250px;
         }
     }
+
+    .content{
+        padding: 30px 0;
+        margin: 0 -15px;
+        .service-mark{
+            top: 10px;
+            left: 0;
+            font-size: 2rem;
+        }
+
+    }
+    .content-two{
+        padding: 30px 0;
+        margin: 0 -15px;
+
+        .service-mark{
+            left: 0;
+            top: 10px;
+            font-size: 2rem;
+
+        }
+
+
+    }
+
 }
 /*===============product-section===============*/
 .our-product{
@@ -1097,13 +1194,49 @@ html,body{
 }
 }
 
-@media only screen and (max-width:360px){
+@media only screen and (max-width:380px){
 
 .main-btn{
     padding: 12px 35px;
 
 }
+.main-head{
+    font-size: 1.5rem;
+
+
+}
+
+
+.navigation{
+    padding: 5px 0;
+    .logo{
+
+        img{
+            height: 30px;
+        }
+    }
+}
+
 /*===============header-section===============*/
+.header-main{
+    padding-top: 25px;
+    .header-content{
+        h1{
+            font-size: 1.8rem;
+        }
+        .water-mark{
+            font-size: 2.5rem;
+            top: 0;
+        }
+
+    }
+    .image{
+
+        img{
+            height: 280px;
+        }
+    }
+}
 /*===============header-section===============*/
 /*===============perfomence-section===============*/
 /*===============service-section===============*/

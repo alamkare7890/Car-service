@@ -17,6 +17,10 @@
             border-radius: 0;
             
         } 
+        .input-space:focus{
+            box-shadow: none;
+            outline: none;
+        }
         .input-space::placeholder{
             font-size: 1rem;
             color: $listColor;

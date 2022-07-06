@@ -35,7 +35,7 @@ $(document).ready(function () {
     $('.show-slide').slick({
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1000,
         infinite: true,
     })
     
@@ -54,11 +54,32 @@ $(document).ready(function () {
 
     }*/
     
+    /*======nav-bar-class=======*/
     
+    $(window).scroll(function () {
+
     
+        if ($(this).scrollTop() > 50) {
+        $('#navFixed').addClass('back-panel');
+        } else {
+        $('#navFixed').removeClass('back-panel').fadeIn();
+        }
 
+    
+        
+    })
+   
+  /*  var header = $(".navbar");
 
-
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 50) {
+            header.addClass("scuro");
+        } else {
+            header.removeClass("scuro");
+        }
+    });
+*/
 
 
 })

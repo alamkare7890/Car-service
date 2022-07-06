@@ -10,8 +10,19 @@
                 width: 100%;
                 height: 500px;
                 object-fit: cover;
+                position: relative;
+                z-index: 0;
             }
-
+            img::after{ 
+                content: "";
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: -1;
+                background-color: $mainbgColor;
+            } 
             .show-overlay{
                 position: absolute;
                 left: 40px;
@@ -33,12 +44,18 @@
                 width: 100%;
                 height: 250px;
                 object-fit: cover;
+                position: relative; 
             }
 
             h2{
                 padding-top: 30px;
                 margin-bottom: 0;
-                line-height: 1.5;
+                line-height: 1.8;
+                overflow: hidden;
+                -webkit-line-clamp: 2;
+                display: -webkit-box;
+                text-overflow: ellipsis;
+                -webkit-box-orient: vertical;
             }
             .comment{
                 padding-bottom: 10px;
@@ -55,8 +72,18 @@
 
             }
 
-
         }
+        img::before{
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 5;
+            background-color: $mainbgColor;
+        }
+
 
     }
 

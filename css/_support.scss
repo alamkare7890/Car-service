@@ -72,6 +72,9 @@
                 color: $listColor;
                 font-size: 0.95rem;
             }
+            input:focus{
+                box-shadow: none;
+            }
             
 
         }
