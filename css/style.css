@@ -144,12 +144,16 @@ html, body {
 }
 
 .back-panel {
-  padding: 20px 0;
+  padding: 10px 0;
   background-color: #121212;
 }
 
 .box-btn {
   display: none;
+}
+
+.slide {
+  right: 0;
 }
 
 /*===============header-section===============*/
@@ -168,6 +172,19 @@ html, body {
 .navigation .call-us a {
   text-decoration: none;
   color: #FFFFFF;
+}
+.navigation .drop-item {
+  min-width: 50px;
+  text-transform: capitalize;
+  background-color: #121212;
+  color: #EDEDED;
+  border-radius: 5px;
+  border: 1px solid #CC6326;
+  opacity: 0.8;
+  text-align: center;
+}
+.navigation .drop-item li {
+  padding-bottom: 10px;
 }
 
 .custom-nav .active {
@@ -872,6 +889,7 @@ html, body {
   .our-perform {
     padding: 70px 0;
   }
+
   /*===============service-section===============*/
   .repair-section .repair-image img {
     height: 400px;
@@ -962,20 +980,66 @@ html, body {
     display: none;
   }
   .navigation .nav-btn {
-    width: 35px;
-    height: 35px;
-    background-color: #CC6326;
-    display: grid;
-    place-content: center;
+    padding: 0;
+    border: none;
+    outline: none;
   }
   .navigation .nav-btn .navbtn-toggle {
-    width: 85%;
-    height: 5%;
-    background-color: #EDEDED;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
   }
-  .navigation .drop-item {
-    background-color: #121212;
-    color: #EDEDED;
+  .navigation .nav-btn .navbtn-toggle::before {
+    content: "";
+    width: 85%;
+    height: 8%;
+    position: absolute;
+    transition: all 0.4s ease;
+    border-radius: 3px;
+    background-color: #EDEDED;
+    box-shadow: 0 15px 0 #EDEDED;
+    transform: translateY(-15px);
+  }
+  .navigation .nav-btn .navbtn-toggle::after {
+    content: "";
+    width: 85%;
+    height: 8%;
+    position: absolute;
+    background-color: #EDEDED;
+    border-radius: 3px;
+    transition: all 0.4s ease;
+    transform: translateY(15px);
+  }
+  .navigation .nav-btn .navbtn-toggle.active::before {
+    box-shadow: none;
+    transform: translateY(0px);
+  }
+  .navigation .nav-btn .navbtn-toggle.active::after {
+    transform: translateY(0px);
+  }
+  .navigation .navi-nav {
+    width: 250px;
+    padding: 20px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    background-color: #CC6326;
+    z-index: 100;
+    border-radius: 5px;
+  }
+  .navigation .navi-nav .drop-item {
+    background-color: transparent;
+    text-align: left;
+    position: relative;
+    left: -20px;
+    border: none;
+  }
+  .navigation .navi-nav .drop-item li {
+    padding-bottom: 5px;
   }
 
   /*===============header-section===============*/

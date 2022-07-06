@@ -21,6 +21,21 @@
             color: $btnText;
         }
     }
+    .drop-item{
+        min-width: 50px;
+        text-transform: capitalize;
+        background-color: $bgColor;
+        color: $mainColor;
+        border-radius: 5px;
+        border: 1px solid $btnColor;
+        opacity: 0.8;
+        text-align: center;
+
+        li{
+            padding-bottom: 10px;
+        }
+        
+    }
 
 }
 

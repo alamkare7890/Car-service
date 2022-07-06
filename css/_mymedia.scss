@@ -304,8 +304,7 @@ html,body{
 .our-perform{
     padding: 70px 0;
 
-    .work{
-    }
+  
 }
 /*===============service-section===============*/
 .repair-section{
@@ -443,27 +442,83 @@ html,body{
     }
 
     .nav-btn{
-        width: 35px;
-        height: 35px;
-        background-color: $btnColor;
-        display: grid;
-        place-content: center;
+        padding: 0;
+        border: none;
+        outline: none;
         .navbtn-toggle{
-            width: 85%;
-            height: 5%;
-            background-color: $mainColor;
-            
+            width: 55px;
+            height: 55px; 
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.4s ease;
+
         }   
     
+        .navbtn-toggle::before{
+            content: "";
+            width: 85%;
+            height: 8%;
+            position: absolute;
+            transition: all 0.4s ease;
+            border-radius: 3px;
+            background-color: $mainColor;
+            box-shadow: 0 15px 0 $mainColor;
+            transform: translateY(-15px);
+        }
+
+        .navbtn-toggle::after{
+            content: "";
+            width: 85%;
+            height: 8%;
+            position: absolute;
+            background-color: $mainColor;
+            border-radius: 3px;
+            transition: all 0.4s ease;
+            transform: translateY(15px);
+        }
+
+        .navbtn-toggle.active::before{
+            box-shadow: none;
+            transform: translateY(0px);
+        }
+
+        .navbtn-toggle.active::after{
+            transform: translateY(0px);
+
+        }
+
+
     }
 
+    .navi-nav{
+        width: 250px;
+        padding: 20px;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        background-color: $btnColor;
+        z-index: 100;
+        border-radius: 5px;
 
-    .drop-item{
+        .drop-item{
 
-        background-color: $bgColor;
-        color: $mainColor;
+            background-color: transparent;
+            text-align: left;
+            position: relative;
+            left: -20px;    
+            border: none;
+            li{
+                padding-bottom: 5px;
+            }
+
+
+        }
 
     }
+
+  
 
 }
 

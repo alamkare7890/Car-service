@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-/*=========product=slide==========*/
+    /*=========product=slide==========*/
     $('.product-slide').slick({
     
         slidesToShow: 3,
@@ -35,12 +35,25 @@ $(document).ready(function () {
     $('.show-slide').slick({
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 2000,    
+        autoplaySpeed: 2000,
         infinite: true,
     })
     
     
-     
+    /*=======nav-slide======*/
+  /*  $('.nav-btn').click(function () {
+
+        $('.navi-nav').addClass('slide');
+
+    })*/
+    /*var myToggle = document.getElementById('menuBtn');
+
+    menuBtn.onclick = function () {
+
+        menuBtn.classList.toggle('active');
+
+    }*/
+    
     
     
 
