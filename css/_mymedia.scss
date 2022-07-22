@@ -73,11 +73,12 @@ html,body{
 
 } 
 .back-panel{
-    padding: 20px 0;
     background-color: $bgColor;
 
 }
-
+.navigation{
+    padding: 20px 10px;
+}
 
 /*===============nav-section===============*/
 /*===============header-section===============*/
@@ -437,7 +438,7 @@ html,body{
 }
 
 .navigation{
-
+    position: relative;
     .logo{
 
         img{
@@ -501,12 +502,13 @@ html,body{
     }
 
     .navi-nav{
-        width: 250px;
+        width: 100%;
+        height: 100vh;
+        background-color: $mainbgColor;
         padding: 20px;
-        position: absolute;
-        top: 100px;
+        position: fixed;
+        top: 0;
         right: 0;
-        background-color: $btnColor;
         z-index: 100;
         border-radius: 5px;
 
@@ -521,6 +523,44 @@ html,body{
                 padding-bottom: 5px;
             }
 
+
+        }
+
+        .nav-head{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .logo{
+                img{
+                    width: 150px;
+                    height: 85px;
+                    object-fit: contain;
+                }
+
+            }
+            .close-btn{
+                position: relative;
+                width: 45px;
+                height: 45px;
+            }
+            .close-btn::before, .close-btn::after{
+                content: "";
+                position: absolute; 
+                left: 25%;
+                top: 40%;
+                width: 85%;
+                border-radius: 5px;
+                background-color: #fff;
+                height: 10%;
+                transform: translate(-30%);
+            }
+            .close-btn::before{
+                transform: rotate(-45deg);
+            }
+            .close-btn:after{
+                transform: rotate(45deg);
+
+            }
 
         }
 
@@ -881,7 +921,6 @@ html,body{
     
 }
 .navigation{
-    padding: 5px;
     .logo{
 
         img{
@@ -1208,7 +1247,6 @@ html,body{
 
 
 .navigation{
-    padding: 5px 0;
     .logo{
 
         img{

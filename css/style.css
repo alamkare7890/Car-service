@@ -153,7 +153,6 @@ html, body {
 }
 
 .back-panel {
-  padding: 10px 0;
   background-color: #121212;
   position: fixed;
   z-index: 10;
@@ -201,7 +200,7 @@ html, body {
 
 /*===============header-section===============*/
 .navigation {
-  padding: 15px;
+  padding: 10px 0;
 }
 .navigation .logo img {
   width: 100%;
@@ -701,7 +700,6 @@ html, body {
     font-size: 0.75rem;
     text-transform: uppercase;
   }
-
   /*=============commmon===========*/
   html, body {
     font-size: 24px;
@@ -711,7 +709,6 @@ html, body {
     line-height: 1.5;
     background-color: #161616;
   }
-
   .main-head {
     font-size: 1.8rem;
     font-weight: 700;
@@ -720,7 +717,6 @@ html, body {
     color: #EDEDED;
     padding-bottom: 10px;
   }
-
   .secondary-head {
     font-size: 1.2rem;
     font-weight: 700;
@@ -729,7 +725,6 @@ html, body {
     color: #EDEDED;
     padding-bottom: 10px;
   }
-
   .small-head {
     font-size: 0.9rem;
     font-weight: 600;
@@ -737,27 +732,22 @@ html, body {
     font-family: "Chakra Petch", sans-serif;
     color: #EDEDED;
   }
-
   .para {
     font-size: 0.75rem;
     font-family: "Open Sans", sans-serif;
     color: #C6C6BB;
     padding-bottom: 10px;
   }
-
   .flex-content {
     display: flex;
     flex-wrap: wrap;
   }
-
   .max-width {
     max-width: 1366px;
   }
-
   .get-btn {
     padding: 15px 30px;
   }
-
   .tag {
     font-size: 0.95rem;
     padding: 12px 18px;
@@ -769,16 +759,15 @@ html, body {
     display: inline-block;
     margin-right: 10px;
   }
-
   .tag1 {
     background-color: #D16527;
   }
-
   .back-panel {
-    padding: 20px 0;
     background-color: #121212;
   }
-
+  .navigation {
+    padding: 20px 10px;
+  }
   /*===============nav-section===============*/
   /*===============header-section===============*/
   /*===============perfomence-section===============*/
@@ -802,7 +791,6 @@ html, body {
     line-height: 1.5;
     background-color: #161616;
   }
-
   .main-head {
     font-size: 2rem;
     font-weight: 700;
@@ -811,7 +799,6 @@ html, body {
     color: #EDEDED;
     padding-bottom: 10px;
   }
-
   .secondary-head {
     font-size: 1.3rem;
     font-weight: 700;
@@ -820,7 +807,6 @@ html, body {
     color: #EDEDED;
     padding-bottom: 10px;
   }
-
   .small-head {
     font-size: 1rem;
     font-weight: 600;
@@ -828,27 +814,22 @@ html, body {
     font-family: "Chakra Petch", sans-serif;
     color: #EDEDED;
   }
-
   .para {
     font-size: 0.75rem;
     font-family: "Open Sans", sans-serif;
     color: #C6C6BB;
     padding-bottom: 10px;
   }
-
   .flex-content {
     display: flex;
     flex-wrap: wrap;
   }
-
   .max-width {
     max-width: 1366px;
   }
-
   .get-btn {
     padding: 15px 30px;
   }
-
   .tag {
     font-size: 0.95rem;
     padding: 12px 18px;
@@ -860,22 +841,18 @@ html, body {
     display: inline-block;
     margin-right: 10px;
   }
-
   .tag1 {
     background-color: #D16527;
   }
-
   .back-panel {
     padding: 20px 0;
     background-color: #121212;
   }
-
   /*===============nav-section===============*/
   /*===============header-section===============*/
   .header-main .header-content .water-mark {
     top: -30px;
   }
-
   /*===============perfomence-section===============*/
   /*===============service-section===============*/
   /*===============repairs-section===============*/
@@ -895,24 +872,20 @@ html, body {
     top: 10px;
     left: 50px;
   }
-
   /*===============process-section===============*/
   .process-section {
     padding: 100px 0;
   }
-
   /*===============product-section===============*/
   .our-product .product-head {
     padding: 15px;
   }
-
   /*===============article-section===============*/
   /*===============contact-section===============*/
   /*===============about-section===============*/
   .support-section .list-nav ul li {
     font-size: 0.7rem;
   }
-
   /*===============footer-section===============*/
   /*===============header-section===============*/
 }
@@ -920,37 +893,29 @@ html, body {
   html, body {
     font-size: 18px;
   }
-
   .main-head {
     font-size: 1.8rem;
   }
-
   .secondary-head {
     font-size: 1.2rem;
   }
-
   .small-head {
     font-size: 1rem;
   }
-
   .para {
     font-size: 0.95rem;
   }
-
   .get-btn {
     padding: 15px 30px;
   }
-
   .tag {
     font-size: 0.95rem;
     padding: 12px 18px;
   }
-
   /*===============nav-section===============*/
   .navigation .logo img {
     height: 50px;
   }
-
   /*===============header-section===============*/
   .header-main {
     padding-top: 100px;
@@ -963,17 +928,14 @@ html, body {
     font-size: 5rem;
     top: 10px;
   }
-
   /*===============perfomence-section===============*/
   .our-perform {
     padding: 70px 0;
   }
-
   /*===============service-section===============*/
   .repair-section .repair-image img {
     height: 400px;
   }
-
   /*===============repairs-section===============*/
   .repair-section .personal ul {
     padding: 20px 0;
@@ -982,7 +944,6 @@ html, body {
   .repair-section .personal .option-btn {
     padding: 15px 60px;
   }
-
   /*===============inforamtion-section===============*/
   .info-section .image img {
     width: 100%;
@@ -1004,57 +965,49 @@ html, body {
     top: -5px;
     left: 20px;
   }
-
   /*===============process-section===============*/
   .process-section {
     padding: 70px 0;
   }
-
   /*===============article-section===============*/
   .our-article .show-slide .article img {
     height: 400px;
   }
-
   /*===============contact-section===============*/
   /*===============about-section===============*/
   /*===============support-section===============*/
   .support-section .list-nav li {
     font-size: 0.7rem;
   }
-
   /*===============header-section===============*/
 }
 @media only screen and (max-width: 991px) {
   html, body {
     font-size: 16px;
   }
-
   .main-head {
     font-size: 2.5rem;
   }
-
   .secondary-head {
     font-size: 1.5rem;
   }
-
   .small-head {
     font-size: 1.2rem;
   }
-
   .para {
     font-size: 0.95rem;
   }
-
   .get-btn {
     padding: 15px 30px;
   }
-
   .tag {
     font-size: 0.95rem;
     padding: 12px 18px;
     margin-top: 15px;
   }
-
+  .navigation {
+    position: relative;
+  }
   .navigation .logo img {
     height: 50px;
   }
@@ -1104,12 +1057,13 @@ html, body {
     transform: translateY(0px);
   }
   .navigation .navi-nav {
-    width: 250px;
+    width: 100%;
+    height: 100vh;
+    background-color: #161616;
     padding: 20px;
-    position: absolute;
-    top: 100px;
+    position: fixed;
+    top: 0;
     right: 0;
-    background-color: #CC6326;
     z-index: 100;
     border-radius: 5px;
   }
@@ -1123,7 +1077,39 @@ html, body {
   .navigation .navi-nav .drop-item li {
     padding-bottom: 5px;
   }
-
+  .navigation .navi-nav .nav-head {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .navigation .navi-nav .nav-head .logo img {
+    width: 150px;
+    height: 85px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .navigation .navi-nav .nav-head .close-btn {
+    position: relative;
+    width: 45px;
+    height: 45px;
+  }
+  .navigation .navi-nav .nav-head .close-btn::before, .navigation .navi-nav .nav-head .close-btn::after {
+    content: "";
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    width: 85%;
+    border-radius: 5px;
+    background-color: #fff;
+    height: 10%;
+    transform: translate(-30%);
+  }
+  .navigation .navi-nav .nav-head .close-btn::before {
+    transform: rotate(-45deg);
+  }
+  .navigation .navi-nav .nav-head .close-btn:after {
+    transform: rotate(45deg);
+  }
   .custom-nav {
     z-index: 5;
   }
@@ -1133,7 +1119,6 @@ html, body {
   .custom-nav li a i {
     display: inline;
   }
-
   /*
   .navi-nav::before{
       content: "";
@@ -1175,7 +1160,6 @@ html, body {
     -o-object-fit: contain;
        object-fit: contain;
   }
-
   /*===============header-section===============*/
   /*===============perfomence-section===============*/
   /*===============service-section===============*/
@@ -1183,7 +1167,6 @@ html, body {
   .repair-section .personal ul {
     padding-left: 120px;
   }
-
   /*===============inforamtion-section===============*/
   .info-section .image img {
     order: 0;
@@ -1209,13 +1192,11 @@ html, body {
   .info-section .content-two .service-mark {
     top: 25px;
   }
-
   /*===============process-section===============*/
   /*===============article-section===============*/
   .our-article .more-article .blog img {
     height: 280px;
   }
-
   /*===============contact-section===============*/
   .contact-us form label {
     font-size: 1rem;
@@ -1226,7 +1207,6 @@ html, body {
   .contact-us form select {
     padding: 15px;
   }
-
   /*===============about-section===============*/
   /*===============footer-section===============*/
   /*===============support-section===============*/
@@ -1260,7 +1240,6 @@ html, body {
   .header-main .image img {
     height: 450px;
   }
-
   /*===============perfomence-section===============*/
   .our-perform {
     padding: 30px 0;
@@ -1270,7 +1249,6 @@ html, body {
     text-align: center;
     border-bottom: 1px solid #AAC0C6;
   }
-
   /*===============service-section===============*/
   /*===============repairs-section===============*/
   .repair-section {
@@ -1291,17 +1269,14 @@ html, body {
   .repair-section .personal ul {
     padding-left: 150px;
   }
-
   /*===============inforamtion-section===============*/
   .info-section .image img {
     height: 300px;
   }
-
   /*===============process-section===============*/
   .process-section .facility {
     padding: 35px 0;
   }
-
   /*===============article-section===============*/
   .our-article .show-slide .article img {
     height: 300px;
@@ -1310,7 +1285,6 @@ html, body {
     left: 20px;
     bottom: 10px;
   }
-
   /*===============contact-section===============*/
   /*===============about-section===============*/
   /*===============support-section===============*/
@@ -1349,38 +1323,28 @@ html, body {
   .support-section .connect-now form input {
     padding: 15px;
   }
-
   /*===============header-section===============*/
 }
 @media only screen and (max-width: 576px) {
   .main-head {
     font-size: 2rem;
   }
-
   .secondary-head {
     font-size: 1.3rem;
   }
-
   .small-head {
     font-size: 1.2rem;
   }
-
   .para {
     font-size: 0.95rem;
   }
-
   .get-btn {
     padding: 12px 25px;
   }
-
   .tag {
     font-size: 0.95rem;
     padding: 10px 16px;
     margin-top: 15px;
-  }
-
-  .navigation {
-    padding: 5px;
   }
   .navigation .logo img {
     height: 40px;
@@ -1389,7 +1353,6 @@ html, body {
     width: 40px;
     height: 30px;
   }
-
   /*===============header-section===============*/
   .header-main .header-content {
     padding-top: 20px;
@@ -1401,19 +1364,16 @@ html, body {
     font-size: 4rem;
     top: -10px;
   }
-
   /*===============header-section===============*/
   /*===============perfomence-section===============*/
   /*===============service-section===============*/
   .our-service .service .icon .fas {
     font-size: 3rem;
   }
-
   /*===============repairs-section===============*/
   .repair-section .repair-image img {
     height: 250px;
   }
-
   /*===============inforamtion-section===============*/
   .info-section .image img {
     height: 250px;
@@ -1436,7 +1396,6 @@ html, body {
     top: 10px;
     font-size: 2rem;
   }
-
   /*===============product-section===============*/
   .our-product .product img {
     width: 85%;
@@ -1445,7 +1404,6 @@ html, body {
     -o-object-fit: cover;
        object-fit: cover;
   }
-
   /*===============process-section===============*/
   /*===============article-section===============*/
   .our-article .show-slide .article img {
@@ -1454,7 +1412,6 @@ html, body {
   .our-article .more-article .blog img {
     height: 250px;
   }
-
   /*===============contact-section===============*/
   /*===============about-section===============*/
   /*===============footer-section===============*/
@@ -1464,34 +1421,27 @@ html, body {
   .main-head {
     font-size: 1.8rem;
   }
-
   .secondary-head {
     font-size: 1.2rem;
   }
-
   .small-head {
     font-size: 1rem;
   }
-
   .para {
     font-size: 0.95rem;
   }
-
   .get-btn {
     padding: 12px 20px;
     font-size: 0.95rem;
   }
-
   .tag {
     font-size: 0.85rem;
     padding: 8px 12px;
     margin-top: 15px;
   }
-
   .main-btn {
     padding: 15px 45px;
   }
-
   /*===============header-section===============*/
   .header-main .header-content h1 {
     font-size: 2rem;
@@ -1502,7 +1452,6 @@ html, body {
   .header-main .image img {
     height: 350px;
   }
-
   /*===============header-section===============*/
   /*===============perfomence-section===============*/
   /*===============service-section===============*/
@@ -1519,12 +1468,10 @@ html, body {
   .our-service .service .icon .fas {
     font-size: 2.8rem;
   }
-
   /*===============repairs-section===============*/
   .repair-section .personal ul {
     padding-left: 70px;
   }
-
   /*===============inforamtion-section===============*/
   .our-product .product img {
     width: 100%;
@@ -1533,12 +1480,10 @@ html, body {
     -o-object-fit: cover;
        object-fit: cover;
   }
-
   /*===============process-section===============*/
   .process-section .facility {
     padding: 25px 0;
   }
-
   /*===============article-section===============*/
   .our-article {
     padding-bottom: 20px;
@@ -1546,17 +1491,14 @@ html, body {
   .our-article .more-article .blog {
     padding-top: 20px;
   }
-
   /*===============product-section===============*/
   .our-product {
     padding-bottom: 20px;
   }
-
   /*===============contact-section===============*/
   .contact-us {
     padding-bottom: 40px;
   }
-
   /*===============about-section===============*/
   /*===============footer-section===============*/
   /*===============support-section===============*/
@@ -1586,18 +1528,12 @@ html, body {
   .main-btn {
     padding: 12px 35px;
   }
-
   .main-head {
     font-size: 1.5rem;
-  }
-
-  .navigation {
-    padding: 5px 0;
   }
   .navigation .logo img {
     height: 30px;
   }
-
   /*===============header-section===============*/
   .header-main {
     padding-top: 25px;
@@ -1612,7 +1548,6 @@ html, body {
   .header-main .image img {
     height: 280px;
   }
-
   /*===============header-section===============*/
   /*===============perfomence-section===============*/
   /*===============service-section===============*/
@@ -1620,7 +1555,6 @@ html, body {
   .repair-section .personal ul {
     padding-left: 20px;
   }
-
   /*===============inforamtion-section===============*/
   /*===============process-section===============*/
   /*===============article-section===============*/
