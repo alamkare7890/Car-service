@@ -530,18 +530,15 @@ html,body{
             display: flex;
             justify-content: flex-end;
             align-items: center;
-            .logo{
-                img{
-                    width: 150px;
-                    height: 85px;
-                    object-fit: contain;
-                }
 
-            }
             .close-btn{
                 position: relative;
                 width: 45px;
                 height: 45px;
+                z-index: 5;
+            }
+            .btn-class{
+                display: none;
             }
             .close-btn::before, .close-btn::after{
                 content: "";
@@ -571,12 +568,15 @@ html,body{
 }
 .custom-nav{
     z-index: 5;
+    
     li{
         a{
             color: $mainColor;
 
             i{
                 display: inline;
+                padding-right: 10px;
+
             }
 
             

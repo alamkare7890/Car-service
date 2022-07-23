@@ -82,8 +82,8 @@ $(document).ready(function () {
 */
     /*===========nav-close-btn=========*/
     $('#navClose').click(function () {
-        $('smallNavi').fadeOut(500);
-    
+        $('smallNavi').removeClass('.show')
+     
     })
 
 })

@@ -56,6 +56,19 @@ html, body {
   scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #FFFFFF;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px 0 #AAC0C6;
+  background: linear-gradient(#d16527, #d18, #d14);
+}
+
 .main-head {
   font-size: 2.2rem;
   font-weight: 700;
@@ -626,6 +639,9 @@ html, body {
   display: inline-block;
   text-decoration: none;
 }
+.support-section .detail a:hover {
+  color: #EDEDED;
+}
 .support-section .list-nav {
   padding-bottom: 30px;
 }
@@ -1082,16 +1098,14 @@ html, body {
     justify-content: flex-end;
     align-items: center;
   }
-  .navigation .navi-nav .nav-head .logo img {
-    width: 150px;
-    height: 85px;
-    -o-object-fit: contain;
-       object-fit: contain;
-  }
   .navigation .navi-nav .nav-head .close-btn {
     position: relative;
     width: 45px;
     height: 45px;
+    z-index: 5;
+  }
+  .navigation .navi-nav .nav-head .btn-class {
+    display: none;
   }
   .navigation .navi-nav .nav-head .close-btn::before, .navigation .navi-nav .nav-head .close-btn::after {
     content: "";
@@ -1118,6 +1132,7 @@ html, body {
   }
   .custom-nav li a i {
     display: inline;
+    padding-right: 10px;
   }
   /*
   .navi-nav::before{
