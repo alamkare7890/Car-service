@@ -1383,6 +1383,9 @@ body::-webkit-scrollbar-track {
   }
   .navigation .logo img {
     height: 35px;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .navigation .nav-btn .navbtn-toggle {
     width: 40px;

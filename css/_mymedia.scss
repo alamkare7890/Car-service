@@ -930,6 +930,8 @@ html,body{
 
         img{
             height: 35px;
+            width: 100%;    
+            object-fit: contain;
         }
     }
 
