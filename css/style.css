@@ -252,6 +252,9 @@ body::-webkit-scrollbar-track {
 .custom-nav li a i {
   display: none;
 }
+.custom-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
 
 /*===============header-section===============*/
 .header-main {
@@ -1161,6 +1164,24 @@ body::-webkit-scrollbar-track {
 
   }*/
   /*===============header-section===============*/
+  /*===============header-section===============*/
+  /*===============perfomence-section===============*/
+  /*===============service-section===============*/
+  /*===============repairs-section===============*/
+  /*===============inforamtion-section===============*/
+  /*===============process-section===============*/
+  /*===============article-section===============*/
+  /*===============contact-section===============*/
+  /*===============about-section===============*/
+  /*===============footer-section===============*/
+  /*===============support-section===============*/
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .custom-nav .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+@media only screen and (max-width: 991px) {
   .header-main {
     padding-top: 100px;
   }
@@ -1175,14 +1196,13 @@ body::-webkit-scrollbar-track {
     -o-object-fit: contain;
        object-fit: contain;
   }
-  /*===============header-section===============*/
-  /*===============perfomence-section===============*/
-  /*===============service-section===============*/
-  /*===============repairs-section===============*/
+}
+@media only screen and (max-width: 991px) {
   .repair-section .personal ul {
     padding-left: 120px;
   }
-  /*===============inforamtion-section===============*/
+}
+@media only screen and (max-width: 991px) {
   .info-section .image img {
     order: 0;
   }
@@ -1207,12 +1227,13 @@ body::-webkit-scrollbar-track {
   .info-section .content-two .service-mark {
     top: 25px;
   }
-  /*===============process-section===============*/
-  /*===============article-section===============*/
+}
+@media only screen and (max-width: 991px) {
   .our-article .more-article .blog img {
     height: 280px;
   }
-  /*===============contact-section===============*/
+}
+@media only screen and (max-width: 991px) {
   .contact-us form label {
     font-size: 1rem;
   }
@@ -1222,9 +1243,8 @@ body::-webkit-scrollbar-track {
   .contact-us form select {
     padding: 15px;
   }
-  /*===============about-section===============*/
-  /*===============footer-section===============*/
-  /*===============support-section===============*/
+}
+@media only screen and (max-width: 991px) {
   .support-section {
     padding-top: 30px;
   }

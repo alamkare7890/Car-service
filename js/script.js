@@ -82,7 +82,7 @@ $(document).ready(function () {
 */
     /*===========nav-close-btn=========*/
     $('#navClose').click(function () {
-        $('smallNavi').removeClass('.show')
+        $('#smallNavi').removeClass('show')
      
     })
 
